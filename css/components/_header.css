@@ -9,7 +9,7 @@
 .header__container {
 	justify-content: space-between;
 	align-items: center;
-	padding-top: 55px;
+	padding: 55px 30px;
 }
 
 .social {
@@ -42,6 +42,7 @@
 
 .logo {
 	font-size: 22px;
+	font-weight: 800;
 	line-height: 1;
 	text-align: center;
 	letter-spacing: 2px;
