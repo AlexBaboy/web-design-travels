@@ -31,3 +31,27 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
 	display: none;
 }
+
+.section-title {
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 80px;
+	/* or 125% */
+	color: var(--dark-color);
+}
+
+.section-title-center {
+	text-align: center;
+	max-width: none;
+}
+
+.btn {
+	font-weight: 800;
+	font-size: 12px;
+	/* identical to box height */
+	letter-spacing: 2.18182px;
+	border-radius: 8px;
+	text-transform: uppercase;
+	color: var(--white-color);
+	padding: 33px 80px;
+}
