@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mitravel</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
 
@@ -20,7 +22,7 @@
 					</li>
 				</ul>
 				<a href="" class="header__logo logo">Mitravel</a>
-				<button class="header__burger burger btn-reset btn" aria-label="open menu">
+				<button class="header__burger burger btn-reset" aria-label="open menu">
 					<span class="burger__line"></span>
 					<span class="burger__line"></span>
 				</button>
@@ -35,7 +37,7 @@
 						There are not many cities that have experienced such social and political extremes in recent history as Amsterdam. In the 20th century alone, Amsterdam faced the atrocities of war for
 						the first time in 400 years, became the radical center of 1960s social movements and witnessed a complete
 					</p>
-					<button class="first__btn btn-reset">Buy the book</button>
+					<button class="first__btn btn-reset btn">Buy the book</button>
 					<div class="first__bottom">
 						<form action="/" class="first__form search-form">
 							<input type="search" class="search-form__field" placeholder="search stories">
@@ -95,10 +97,85 @@
 						<a href="#" class="blog-article__link btn">Read Article</a>
 					</article>
 				</div>
-				<div class="featured__stories">12345</div>
+				<div class="featured__stories">
+					<h2 class="featured__title">Featured Stories</h2>
+					<ul class="featured__list feature-list">
+						<li class="feature-list__item">
+							<article class="feature-list__article">
+								<div class="feature-list__image">
+									<img src="img/ava-1.jpg" alt="img">
+								</div>
+								<div class="feature-list__text">
+									<h3 class="feature-list__title">
+										<a href="#">Do A Sporting Stag Do In Birmingham</a>
+									</h3>
+									<time class="feature-list__time" datetime="2019-12-13 00:00">13 Dec 2019</time>
+								</div>
+							</article>
+						</li>
+						<li class="feature-list__item">
+							<article class="feature-list__article">
+								<div class="feature-list__image">
+									<img src="img/ava-2.jpg" alt="img">
+								</div>
+								<div class="feature-list__text">
+									<h3 class="feature-list__title">
+										<a href="#">From Wetlands To Canals And Dams Amsterdam Is Alive</a>
+									</h3>
+									<time class="feature-list__time" datetime="2019-12-13 00:00">13 Dec 2019</time>
+								</div>
+							</article>
+						</li>
+						<li class="feature-list__item">
+							<article class="feature-list__article">
+								<div class="feature-list__image">
+									<img src="img/ava-3.jpg" alt="img">
+								</div>
+								<div class="feature-list__text">
+									<h3 class="feature-list__title">
+										<a href="#">Stu Unger Rise And Fall Of A Poker Genius</a>
+									</h3>
+									<time class="feature-list__time" datetime="2019-12-13 00:00">13 Dec 2019</time>
+								</div>
+							</article>
+						</li>
+						<li class="feature-list__item">
+							<article class="feature-list__article">
+								<div class="feature-list__image">
+									<img src="img/ava-4.jpg" alt="img">
+								</div>
+								<div class="feature-list__text">
+									<h3 class="feature-list__title">
+										<a href="#">New Ideas For A Low Cost Vacation On Water</a>
+									</h3>
+									<time class="feature-list__time" datetime="2019-12-13 00:00">13 Dec 2019</time>
+								</div>
+							</article>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="featured-videos">
+				<div class="container featured-videos__container">
+					<h2 class="featured-videos__title section-title section-title-center">Featured Videos</h2>
+					<p class="featured-videos__desc">
+						The state of Utah in the United States is home to lots of beautiful National Parks, & Bryce Canyon National Park ranks as three of the most magnificent & awe inspiring.
+					</p>
+				</div>
+				<div class="slider-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">1</div>
+						<div class="swiper-slide">2</div>
+						<div class="swiper-slide">3</div>
+						<div class="swiper-slide">4</div>
+					</div>
+				</div>
 			</section>
 		</main>
 	</div>
 
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>
