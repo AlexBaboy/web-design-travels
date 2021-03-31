@@ -7,10 +7,9 @@
 
 .swiper-slide {
 	position: relative;
-	/*background: #e3e3e3;*/
 	border-bottom-right-radius: 8px;
 	min-height: 550px;
-	/*width: 890px;*/
+	width: 890px;
 	transition: transform 0.3s;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -64,7 +63,6 @@
 	padding-bottom: 50px;
 }
 
-
 .featured-videos__desc {
 	text-align: center;
 	max-width: 650px;
@@ -72,7 +70,6 @@
 	font-size: 16px;
 	line-height: 24px;
 	margin: 26px auto;
-
 }
 
 .slide-1 {

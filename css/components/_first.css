@@ -8,12 +8,6 @@
 	color: var(--white-color);
 }
 
-.first__container {
-	position: relative;
-	height: 100%;
-	padding-top: 223px;
-	padding-bottom: 200px;
-}
 
 .first__link {
 	background-color: rgba(28, 46, 61, 0.4);
@@ -153,6 +147,10 @@
 	z-index: 10;
 }
 
+.swiper-slide.little {
+	width: auto;
+}
+
 /*media queries*/
 @media (max-height: 1079px) {
 	.first__container {
@@ -171,6 +169,14 @@
 		font-size: 75px;
 		line-height: 75px;
 	}
+}
+
+
+.first__container {
+	position: relative;
+	height: 100%;
+	padding-top: 223px;
+	padding-bottom: 200px;
 }
 
 @media (max-height: 780px) {
