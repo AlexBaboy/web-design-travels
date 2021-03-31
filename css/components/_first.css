@@ -124,6 +124,35 @@
 	text-transform: uppercase
 }
 
+
+.main-slider__text::before {
+	content: " ";
+	background-image: url("../../img/arrow-left.svg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 10%;
+	width: 14px;
+	height: 14px;
+	cursor: pointer;
+	z-index: 10;
+}
+
+.main-slider__text::after {
+	content: " ";
+	background-image: url("../../img/arrow-right.svg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 10%;
+	width: 14px;
+	height: 14px;
+	cursor: pointer;
+	z-index: 10;
+}
+
 /*media queries*/
 @media (max-height: 1079px) {
 	.first__container {
