@@ -66,6 +66,12 @@
 	background-color: var(--neptune-color);
 	display: inline-block;
 	text-transform: uppercase;
+	transition: background-color 0.3s;
+}
+
+.blog-article__link:hover {
+	background-color: var(--neptune-hover-color);
+	transition: background-color 0.3s;
 }
 
 .featured__title {

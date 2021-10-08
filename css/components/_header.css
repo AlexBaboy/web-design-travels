@@ -26,6 +26,11 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	transition: opacity 0.3s;
+}
+
+.social__link:hover {
+	opacity: 0.8;
 }
 
 .social__link--fb {
@@ -50,14 +55,26 @@
 	text-transform: uppercase;
 }
 
+.burger {
+	width: 48px;
+	height: 10px;
+	position: relative;
+}
+
+.burger:hover .burger__line {
+	background-color: var(--accent-color);
+	transition: background-color 0.3s;
+}
+
 .burger__line {
-	width: 100%;
-	height: 2px;
-	background-color: var(--white-color);
-	display: block;
 	position: absolute;
 	right: 0;
 	top: 0;
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: var(--white-color);
+	transition: background-color 0.3s;
 }
 
 .burger__line:last-child {
