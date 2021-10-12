@@ -12,4 +12,10 @@ const swiper = new Swiper(sliderContainer, {
 
 burger.addEventListener('click', () => {
 	menu.classList.add('menu__visible')
+	console.log('15!')
+})
+
+close.addEventListener('click', () => {
+	menu.classList.remove('menu__visible')
+	console.log('20!')
 })
